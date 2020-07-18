@@ -33,6 +33,5 @@ test("form shows success message on submit with form details", () => {
     expect(state.value).toBe('test-state');
     expect(zip.value).toBe('test-zip');
     fireEvent.click(getByTestId(/button/i));
-    // const message = getByTestId(/successMessage/i);
-    // expect(message).toBeInTheDocument();
+   
 });
