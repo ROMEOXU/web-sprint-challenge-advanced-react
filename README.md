@@ -29,15 +29,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
+Set up this.state
 
 2. Describe the different phases of the component lifecycle.
-
+Mounting like birth , Updating like being kid to teenage, and Unmounting like old dead
 3. Demonstrate an understanding of class component lifecycle methods.
-
+cdm is available after the component has mounted. That is after the HTML from render has finished loading. It is called once in the component life cycle and it signals that the component and all its sub-components have rendered properly.
 4. Define stateful logic.
-
+Stateful logic is any code that uses state, but in the case of hooks I would define it as a behaviour created with the use of one or more hooks. It's like a perk that you're adding to a component.
 5. Describe how to test a React component with React Testing Library.
-
+render <component /> then test('sth',()=>{})
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
